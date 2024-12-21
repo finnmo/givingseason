@@ -1,5 +1,10 @@
+
+kv_namespaces= [
+    { binding= "GIFTS_KV", id= "cd7d5a4156264e1f8efc3612b0f26f1f" }
+]
+
 name = "gift-wishlist"
-compatibility_date = "2023-01-01"
+compatibility_date = "2024-12-01"
 
 [site]
 bucket = "./build"
