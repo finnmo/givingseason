@@ -1,0 +1,15 @@
+name = "gift-wishlist"
+compatibility_date = "2023-01-01"
+
+[site]
+bucket = "./build"
+
+[build]
+command = "npm run build"
+output_dir = "build"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+[env.development]
+vars = { ENVIRONMENT = "development" }

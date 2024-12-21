@@ -10,6 +10,8 @@
 
 # production
 /build
+/dist
+.wrangler
 
 # misc
 .DS_Store
@@ -17,7 +19,36 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.dev.vars
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+
+# Cloudflare
+.cloudflare
+.wrangler
+.dev.vars
+
+# Optional: Local SSL certificates
+*.pem
+*.key
+*.crt
+
+# Optional: Local development files
+*.local
